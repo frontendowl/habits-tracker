@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="534px" height="396px" viewBox="0 0 534 396" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>owl</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="owl_logo" transform="translate(5.000000, 6.000000)">
+            <g id="owl" transform="translate(0.000000, 2.000000)">
+                <path d="M524,53 C524,98.4693695 499.460261,140.001024 458.983391,171.684776 C460.96603,181.852316 462,192.317485 462,203 C462,302.411255 372.45695,383 262,383 C151.54305,383 62,302.411255 62,203 C62,192.317485 63.0339697,181.852316 65.0167517,171.681136 C24.5397385,140.001024 0,98.4693695 0,53 C0,34.7514844 3.95263903,17.1372202 11.3018133,0.539263673 C79.8946153,50.2483308 167.086822,80 262,80 C356.913178,80 444.105385,50.2483308 512.691103,0.541957228 C520.047361,17.1372202 524,34.7514844 524,53 Z" id="Combined-Shape" stroke="#FFFFFF" stroke-width="10"></path>
+                <path d="M240,264 L262,284 M284,264 L262,284" id="nose" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"></path>
+                <g id="glasses" transform="translate(73.000000, 169.000000)" stroke="#FFFFFF" stroke-width="8">
+                    <g id="left">
+                        <path d="M0,39 C0,36.0079156 31,14.0659631 46,12.0712401 C55.3333333,11.4063325 60,15.3957784 60,24.0395778" id="earhook-L" stroke-linecap="round" stroke-linejoin="round" transform="translate(30.000000, 25.500000) scale(-1, 1) translate(-30.000000, -25.500000) "></path>
+                        <circle id="glass-L" cx="114" cy="55" r="55"></circle>
+                    </g>
+                    <g id="right" transform="translate(209.000000, 0.000000)">
+                        <path d="M109,39 C109,36.0079156 140,14.0659631 155,12.0712401 C164.333333,11.4063325 169,15.3957784 169,24.0395778" id="earhook-R" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <circle id="glass-R" cx="55" cy="55" r="55"></circle>
+                    </g>
+                    <path d="M169,55 C177.794271,52.3333333 184.460937,51 189,51 C193.539062,51 200.205729,52.3333333 209,55" id="Path" stroke-linecap="round"></path>
+                </g>
+                <g id="eyes" transform="translate(162.000000, 194.000000)">
+                    <g id="eye-l">
+                        <circle id="Oval" stroke="#FFFFFF" stroke-width="4" cx="30" cy="30" r="30"></circle>
+                        <circle id="Oval" fill="#FFFFFF" cx="34" cy="28" r="18"></circle>
+                    </g>
+                    <g id="eye--r" transform="translate(150.000000, 0.000000)">
+                        <circle id="Oval" stroke="#FFFFFF" stroke-width="4" cx="30" cy="30" r="30"></circle>
+                        <circle id="Oval" fill="#FFFFFF" cx="34" cy="28" r="18"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

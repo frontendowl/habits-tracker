@@ -1,0 +1,99 @@
+.App {
+  // text-align: center;
+  background-color: #246969;
+  margin: 0;
+  padding: 1rem;
+  color: white;
+  min-height: 100vh;
+
+  display: grid;
+  grid-row-gap: 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  width: 120px;
+  margin: 0 2rem 0 0;
+}
+.title {
+  font-size: 1.75rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.tracker {
+  width: 595px;
+  height: 842px;
+  padding: 64px 48px;
+  background: white;
+  color: #444;
+
+  justify-self: center;
+}
+
+.tracker-header {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+}
+
+.habit-line {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+.habit-name {
+  width: 25%;
+  height: 1.25rem;
+  border-bottom: dotted #999 1px;
+
+  margin-right: 0.5rem;
+}
+.day-box {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  border: #999 solid 1px;
+
+  margin-right: 0.5rem;
+}
+/*
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #246969;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/
