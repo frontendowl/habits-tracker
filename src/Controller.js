@@ -40,7 +40,7 @@ class Controller extends React.Component {
     /* text is handled via labels for accessibility */
     return (
       <label htmlFor={this.props.id} className="lbl">
-        {this.props.lblTextBefore}
+        {this.props.lblTextBefore + " "}
         <input
           className={isError ? "error input" : "input"}
           id={this.props.id}
@@ -51,7 +51,7 @@ class Controller extends React.Component {
           onChange={this.handleChange}
           onBlur={this.handleBlur}
         />
-        {this.props.lblTextAfter}
+        {" " + this.props.lblTextAfter + " "}
       </label>
     );
   }
