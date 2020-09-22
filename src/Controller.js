@@ -1,6 +1,6 @@
 import React from "react";
 
-class Controller extends React.Component {
+class Controller extends React.PureComponent {
   constructor(props) {
     super(props);
     let val = this.props.value;

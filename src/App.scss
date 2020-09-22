@@ -2,8 +2,9 @@ $border-light: #999;
 .App {
   background-color: #246969;
   margin: 0;
-  padding: 1rem;
+  padding: 0.75rem 1rem 2rem;
   color: white;
+  justify-content: center;
   min-height: 100vh;
   min-width: 595px;
 
@@ -13,25 +14,34 @@ $border-light: #999;
 
 .header {
   display: flex;
-  justify-content: center;
+  // justify-content: center;
   align-items: center;
+  width: 595px;
 }
 .logo {
   width: 120px;
-  margin: 0 2rem 0 0;
+  margin: 0 1.5rem 0 0;
 }
 .title {
+  font-size: 3.75rem;
+  line-height: 3.75rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0;
+}
+.subtitle {
+  display: block;
   font-size: 1.75rem;
-  text-transform: uppercase;
-  font-weight: 600;
+  line-height: 1.75rem;
+  font-weight: 200;
+  padding-left: 0.125rem;
 }
 
 #settings {
   box-sizing: border-box;
   font-size: 1.5rem;
   width: 595px;
-  justify-self: center;
-  padding: 1.5rem 2rem 1rem 0.125rem;
+  padding: 1.5rem 2rem 0.5rem 0.125rem;
 
   color: white;
 }
@@ -40,10 +50,8 @@ $border-light: #999;
   margin: 0 0.5rem;
   font-family: "Indie Flower", cursive;
   font-size: 1.75rem;
-  // line-height: 1.5rem;
   height: 2rem;
   font-weight: 600;
-  // padding: 0.125rem 0.5em;
   padding: 0.25rem 0 0;
   margin: 0 0.125rem;
   border-radius: 0.5rem;
@@ -63,7 +71,6 @@ $border-light: #999;
 }
 
 .lbl {
-  // padding: 0 0.5rem 0 0;
   padding: 0;
 }
 .error {
@@ -77,8 +84,6 @@ $border-light: #999;
   padding: 48px 48px 64px;
   background: white;
   color: #444;
-
-  justify-self: center;
 }
 
 .tracker-header {
@@ -112,6 +117,9 @@ $border-light: #999;
   &:focus {
     opacity: 1;
   }
+  &.hidden {
+    display: none;
+  }
 }
 .habit-name {
   flex-grow: 1;
@@ -120,10 +128,11 @@ $border-light: #999;
 
   background-image: url("./imgs/dot.svg");
   background-repeat: repeat-x;
-  background-position: 0 0.75rem;
+  background-position: 0 0.875rem;
   background-size: 2px;
 
-  padding: 0.25rem 0.25rem 0.25rem 0.5rem;
+  // padding: 0.25rem 0.25rem 0.25rem 0.5rem;
+  padding: 0.25rem;
   overflow: hidden;
   font-size: 1.25rem;
 }
@@ -159,7 +168,7 @@ $border-light: #999;
   }
   .habit-name {
     height: 24pt;
-    background-size: 3pt;
+    background-size: auto;
     background-position: 0 9pt;
     padding: 4pt 4pt 4pt 8pt;
     font-size: 20pt;

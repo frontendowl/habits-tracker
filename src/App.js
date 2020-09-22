@@ -1,25 +1,14 @@
 import React from "react";
-import logo from "./imgs/owl.svg";
 import "./App.scss";
 
+import Header from "./Header.js";
 import Controller from "./Controller.js";
 import Tracker from "./Tracker.js";
 
-const MIN_HABITS = 2,
-  MAX_HABITS = 11,
+const MIN_HABITS = 1,
+  MAX_HABITS = 10,
   MIN_DAYS = 5,
   MAX_DAYS = 14;
-
-class Header extends React.Component {
-  render() {
-    return (
-      <header className="header no-print">
-        <img src={logo} className="logo" alt="logo" />
-        <h1 className="title">Customizable habit tracker</h1>
-      </header>
-    );
-  }
-}
 
 class App extends React.Component {
   constructor(props) {
@@ -28,10 +17,6 @@ class App extends React.Component {
       days: 7,
       habits: Array(6).fill("")
     };
-    // this.handleLinesChange = this.handleLinesChange.bind(this);
-    // this.handleDaysChange = this.handleDaysChange.bind(this);
-    // this.handleHabitRemove = this.handleHabitRemove.bind(this);
-    // this.handleLineTextChange = this.handleLineTextChange.bind(this);
   }
 
   handleLinesChange = n => {

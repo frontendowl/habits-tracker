@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="168px" height="126px" viewBox="0 0 168 126" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>headerlogo</title>
+    <g id="header" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="headerlogo" transform="translate(84.000000, 63.857143) scale(-1, 1) translate(-84.000000, -63.857143) translate(2.000000, 3.857143)" stroke="#FFFFFF">
+            <path d="M164,16.5294266 C164,30.7110581 156.319464,43.6645265 143.650894,53.5464401 C144.271845,56.7176421 144.59542,59.981463 144.59542,63.3130652 C144.59542,94.3185334 116.570496,119.453432 82,119.453432 C47.4295042,119.453432 19.4045802,94.3185334 19.4045802,63.3130652 C19.4045802,59.981463 19.7281545,56.7176421 20.3486553,53.5455025 C7.68053633,43.6645265 0,30.7110581 0,16.5294266 C0,10.8378659 1.23709169,5.34412358 3.53722599,0.167360204 C25.0048174,15.671081 52.2941488,24.9504815 82,24.9504815 C111.705851,24.9504815 138.995183,15.671081 160.461008,0.167925994 C162.762908,5.34412358 164,10.8378659 164,16.5294266 Z" id="Combined-Shape" stroke-width="4"></path>
+            <g id="glasses" transform="translate(24.796669, 50.473613)">
+                <g transform="translate(-0.000000, 0.000000)">
+                    <g id="left" transform="translate(0.203331, 0.222816)" stroke-width="4">
+                        <path d="M0,14.1394823 C0,13.2124436 7.31575295,5.82819611 12,5.2101703 C14.9146426,5.0041617 16.5813093,6.65773801 17,10.1708992" id="earhook-L" stroke-linecap="round" stroke-linejoin="round" transform="translate(8.500000, 9.666268) scale(-1, 1) translate(-8.500000, -9.666268) "></path>
+                        <ellipse id="glass-L" cx="33.203331" cy="18.1156728" rx="16" ry="15.8928571"></ellipse>
+                    </g>
+                    <g id="right" transform="translate(62.203331, 0.222816)" stroke-width="4">
+                        <path d="M35,14.1394823 C35,13.2124436 42.3157529,5.82819611 47,5.2101703 C49.9146426,5.0041617 51.5813093,6.65773801 52,10.1708992" id="earhook-R" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <ellipse id="glass-R" cx="18.9361554" cy="18.1156728" rx="16" ry="15.8928571"></ellipse>
+                    </g>
+                    <path d="M50.7758501,19.0614322 C53.5221526,18.2336341 55.6040402,17.819735 57.0215128,17.819735 C58.4389855,17.819735 60.5208731,18.2336341 63.2671756,19.0614322" id="Path" stroke-width="6" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
